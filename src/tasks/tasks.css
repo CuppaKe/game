@@ -1,0 +1,23 @@
+.question_start {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.task_ask {
+  color: red;
+}
+.pazzle {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: yellowgreen;
+  border: solid silver 3px;
+  border-radius: 2px;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+.pazzle:hover {
+  color: red;
+}

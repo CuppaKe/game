@@ -1,0 +1,20 @@
+.scoreboard {
+  border-collapse: collapse;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 2343;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -300px;
+  width: 600px;
+  background: rgb(139, 138, 156);
+  border: 3px solid silver;
+}
+
+td,th {
+  position: relative;
+  width:100px;
+  border: 1px solid black;
+  text-align: center;
+}

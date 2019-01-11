@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./dist/bundle.js" defer></script>
+    <link href="./style/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class='preloader'>
+        <div class='loader'></div>
+    </div>
+    <header>
+        <h1 class='logo'>Space Strider</h1>
+        <nav>
+            <a href="#game">play</a>
+            <a href="#about">about</a>
+            <a href="#screenshots">screenshots</a>
+            <a href="#game">leaderboard</a>
+        </nav>
+    </header>
+    <audio loop >
+        <source src="./assets/audio/1.mp3" type="audio/mp3">
+    </audio>
+    <section class='about' id='about'>
+        <article class='promo'>
+            <h3 class='greeting'>welcome aboard, young friend!</h3>
+            <p class='greeting_text'>
+              Explore infinite expanse of space. Fight with space pirates and marauders. Answear tricky questions and learn new. Get points and climb the leaderboard.
+            </p>
+        </article>
+    </section>
+    <section class='screenshots' id='screenshots'>
+      <div class='screenshot_container'>
+        <div class='img_cont'><img class="img_sc" src="./assets/screenshots/screenshot_1.PNG" alt="start game"></div>
+        <div class='img_cont'><img class="img_sc" src="./assets/screenshots/screenshot_2.PNG" alt="start game"></div>
+        <div class='img_cont'><img class="img_sc" src="./assets/screenshots/screenshot_3.PNG" alt="start game"></div>
+        <div class='img_cont'><img class="img_sc" src="./assets/screenshots/screenshot_4.PNG" alt="start game"></div>
+      </div>
+    </section>
+    <section class='game' id='game'>
+        <div class='status_container'>
+            <div class='name_container'>
+                <div class='player_name'></div>
+                <div class='enemy_name'></div>
+            </div>
+            <div class='health_container'>
+                <div class='player_health'>
+                    <div class='inner_player_health'></div>
+                </div>
+                <div class='enemy_health'>
+                    <div class='inner_enemy_health'></div>
+                </div>
+            </div>
+        </div>
+        <div class="space" id="space">
+            <button class='start_game'>PLAY</button>
+        </div>
+    </section>
+    <footer>
+      <a class='github' href="https://github.com/CuppaKe" target="blank">by CuppaKe</a>
+    </footer>
+</body>
+</html>
